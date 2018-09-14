@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <title>Playground</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="home-content">
+            <h1 class="home-content__header">Calorie Tracker</h1>
+        </main>
+        <aside class="side-bar">
+            <ul class="side-menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Sponsors</li>
+            </ul>
+        </aside>
+
+        <section class="calorie-form-container">
+            <div class="card">
+                <h2>Add Meal / Food Item</h2>
+                <form class="calorie-form" action="">
+                    <label class="calorie-form__meal-label" for="meal">Meal</label>
+                    <input class="calorie-form__meal-input" placeholder="Add Meal" name="meal" type="text">
+                    <label class="calorie-form__calorie-label" for="meal">Calories</label>
+                    <input class="calorie-form__calorie-input" placeholder="Add Calories" name="calories" type="number">
+                    <button>Add Meal</button>
+                    <button>Back</button>
+                </form>
+            </div>
+            <section class="calorie-counter">
+                <h2>Total Calories: 0</h2>
+            </section>
+        </section>
+
+        <section class="items-list-container">
+            <ul class="item-list"></ul>
+        </section>
+
+
+
+    </div>
+
+    <script type="module" src="./controllers/main.js"></script>
+</body>
+
+</html>
