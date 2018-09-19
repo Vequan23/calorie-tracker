@@ -11,3 +11,8 @@ export const getData = () => {
 
   return data;
 };
+
+export const itemAddSubmit = e => {
+  console.log("add");
+  e.preventDefault();
+};

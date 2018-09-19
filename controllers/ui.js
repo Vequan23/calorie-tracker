@@ -1,5 +1,6 @@
-const UISelectors = {
-  itemList: ".item-list"
+export const UISelectors = {
+  itemList: ".item-list",
+  addBtn: ".add-btn"
 };
 
 export const UIPopulateItemList = data => {
